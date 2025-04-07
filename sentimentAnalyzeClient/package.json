@@ -13,7 +13,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && rm -rf ../sentimentAnalyzeServer/client &&mv build ../sentimentAnalyzeServer/client",    "test": "react-scripts test",
+    "build": "react-scripts build && rm -rf ../sentimentAnalyzeServer/client &&mv build ../sentimentAnalyzeServer/client",
+    "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -33,5 +34,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.10"
   }
 }
